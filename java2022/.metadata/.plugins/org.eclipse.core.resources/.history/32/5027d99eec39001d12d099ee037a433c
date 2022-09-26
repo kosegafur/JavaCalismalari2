@@ -1,0 +1,23 @@
+package oop1;
+
+public class CorporateCustomer {
+	private String companyName;
+	privateCustomer String;
+
+	public String getCompanyName() {
+		return companyName;
+	}
+
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+
+	public privateCustomer getString() {
+		return String;
+	}
+
+	public void setString(privateCustomer string) {
+		String = string;
+	}taxNumber;
+
+}

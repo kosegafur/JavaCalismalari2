@@ -1,0 +1,41 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String[] araba = new String[5];
+
+		araba[0] = "BMW";
+		araba[1] = "MERCEDES";
+		araba[2] = "AUDI";
+		araba[3] = "VOLKSWAGEN";
+		araba[4] = "OPEL";
+
+		for (int i = 0; i < araba.length; i++) {
+			System.out.println(araba[i]);
+		}
+
+		for (String almanArabalari : araba) {
+			System.out.println(almanArabalari);
+		}
+
+		int gafo = 15;
+
+		switch (gafo) {
+
+		case 12:
+			System.out.println("Hatalı");
+			break;
+		case 15:
+			System.out.println("Hatalı2");
+			break;
+		case 53:
+			System.out.println("Doğru seçim");
+			break;
+		default:
+			System.out.println("Yanlış seçim");
+
+		}
+	}
+
+}

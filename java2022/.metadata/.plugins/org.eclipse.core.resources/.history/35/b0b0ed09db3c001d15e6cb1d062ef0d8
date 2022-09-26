@@ -1,0 +1,25 @@
+package classesWithAttributes;
+
+public class Product {
+	// attribute | field
+	// this: İçerisinde bulunduğum claas demektir.
+	// get: Getir anlamındadır. set: Planla anlamındadır.
+
+	private int id;
+	private String _description;
+	private double _price;
+	private int _stockAmount;
+	private String _renk;
+	private String _kod;
+
+	// getter
+	public int getId() {
+		return id;
+	}
+
+	// setter
+	public void setId(int id) {
+		this.id = id;
+	}
+
+}

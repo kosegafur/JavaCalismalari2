@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String araba1 = "BMW";
+		String araba2 = "MERCEDES";
+		String araba3 = "AUDI";
+		String araba4 = "VOLKSWAGEN";
+		String araba5 = "OPEL";
+
+		String[] almanArabalari = new String[5];
+
+		for (int i = 0; i < almanArabalari.length; i++) {
+			System.out.println(almanArabalari[i]);
+		}
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package oop1;
+
+//PascalCase : Class lar PascalCase olarak yazılır
+public class Product {
+	// field lar camelCase olarak yazılır.
+	private String name;
+	private double unitPrice;
+	private double discount;
+	private String imageUrl;
+	private int unitsInStock;
+
+}
